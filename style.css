@@ -1,0 +1,64 @@
+/* font-style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* nav styles */
+.nav-var{
+    display: flex;
+    background-color: blue;
+    
+}
+.copa-2021{
+    font-size: 64px;
+    width: 485px;
+    height: 230px;
+    padding-left: 50px;
+    line-height: 80px;
+    color: white;
+}
+.nav-var a{
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.nav-var img{
+    width: 550px;
+    height: 438px;
+    padding-top: 150px;
+}
+.nav-var:hover a{
+    background-color: black;
+    border: 2px solid white;
+}
+/* ------Players styles------ */
+.container{
+    background-color: whitesmoke;
+     padding-top: 50px;
+}
+.players{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 15px;
+   align-items: center;
+   margin-left: 200px;
+   margin-right: 50px;
+   width: 70%;
+   justify-content: center;
+}
+.player{
+    width: 300px;
+    height: 475px;
+    padding: 15px;
+    box-shadow: 0px 0px 40px 0px #00000026;
+
+}
+.player-img img{
+    width: 300px;
+    height: 255px;
+    padding-top: 15px;
+   
+}
