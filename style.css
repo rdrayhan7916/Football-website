@@ -19,7 +19,10 @@ body{
 }
 .nav-var a{
     text-decoration: none;
+    font-size: 30px;
     color: white;
+    width: 170px;
+    height: 45px;
     background-color: #E02C6D;
     padding-left: 10px;
     padding-right: 10px;
