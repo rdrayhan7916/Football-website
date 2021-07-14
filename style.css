@@ -96,3 +96,22 @@ footer{
     width: 480px;
     height: 110px;
 }
+
+/* Mobile device */
+@media  (max-width:688px) {
+    
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+    }
+    .nav-var{
+        width: 600px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background-color: chartreuse;  
+    }
+    .nav-var img{
+        padding-top: 350px;
+    }
+
+}
