@@ -40,6 +40,7 @@ body{
 .container{
     background-color: whitesmoke;
      padding-top: 50px;
+     padding-bottom: 30px;
 }
 .players{
     display: grid;
@@ -64,4 +65,34 @@ body{
     height: 255px;
     padding-top: 15px;
    
+}
+/* Next-Comment styles */
+
+.next-button a{
+    text-decoration: none;
+    background-color: tomato;
+    border-radius: 5px;
+    padding: 6px;
+    margin-left: 1100px;
+}
+.comment{
+    margin-left: 500px;
+    color: red;
+}
+.comment h2{
+    font-size: 40px;
+    margin-top: 5px;
+    margin-left: 4px;
+}
+.comment input{
+    padding: 30px;
+}
+/* Footer styles */
+footer{
+    text-align: center;
+   
+}
+.logo img{
+    width: 480px;
+    height: 110px;
 }
